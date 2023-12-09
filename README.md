@@ -1,4 +1,73 @@
-### Hi there 👋
+My name is **Mark** van de Streek and I am a student bioinformatics at the [University of applied Sciences Groningen](https://www.hanze.nl/en) 🇳🇱.
+
+## 🔧 Technologies & Tools
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![thymeleaf](https://img.shields.io/badge/thymeleaf-%23005C0F.svg?style=for-the-badge&logo=thymeleaf&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Galaxy-Workflow](https://img.shields.io/badge/galaxy--workflow-%23121011.svg?style=for-the-badge&logo=galaxy&logoColor=white)
+
+## 🧬 🧪 knowledge
+
+- **Genomics**
+- **Genetics**
+- **Transcriptomics**
+- **Proteomics**
+- **Metagenomics**
+- **Phylogenetics**
+- **Systems Biology**
+- **Immunology**
+- **Microbiology**
+
+
+## 🙍🏼‍ About me
+
+```java
+// AboutMe.java
+
+public abstract class Me extends Mark {
+    
+    public String NAME = "Mark";
+    public String SURNAME = "Van de Streek";
+    public String AGE = "20";
+
+    public String currentStatus() {
+        return "Student bioinformatics at " +
+                "the University of Applied Sciences Groningen";
+    }
+    
+    @Override
+    public String toString() {
+        return "Welcome to the profile of " + this.NAME;
+    }
+}
+```
+
+## Currently working on
+
+### Server Dashboard for the Bioinformatics department of the University of Applied Sciences Groningen
+
+![](https://img.shields.io/badge/status-developing...-green.svg)
+![](https://img.shields.io/badge/language-Java-yellow.svg)
+
+[Bioinf-Status-Page](https://Github.com/MarkStreek/Bioinf-Status-Page) To see the project!
+
+## 📊 Stats
 
 <!--START_SECTION:waka-->
+
 <!--END_SECTION:waka-->
+
+## 📫 Contact me
+
+- [LinkedIn](https://www.linkedin.com/in/mark-van-de-streek-1b1b3b1b3/)
+- [Email](mailto:m.van.de.streek@st.hanze.nl)
