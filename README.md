@@ -34,17 +34,19 @@ My name is **Mark** van de Streek and I am a student bioinformatics at the [Univ
 ```java
 // AboutMe.java
 
-public abstract class Me extends Mark {
-    
+import java.util.Collection;
+import java.util.Collections;
+
+public abstract class About extends Me {
+
     public String NAME = "Mark";
     public String SURNAME = "Van de Streek";
     public String AGE = "20";
-
-    public String currentStatus() {
-        return "Student bioinformatics at " +
-                "the University of Applied Sciences Groningen";
-    }
     
+    public List<String> getLanguage() {
+        return Collections.unmodifiableList(List.of("Dutch", "English", "German"));
+    }
+
     @Override
     public String toString() {
         return "Welcome to the profile of " + this.NAME;
