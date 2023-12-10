@@ -20,18 +20,18 @@ jobs:
           API_BASE_URL: https://wakatime.com/api # optional
           REPOSITORY: MarkStreek/MarkStreek # optional
           ### content
-          SHOW_TITLE: true # optional
-          SHOW_TIMEZONE: true
-          SHOW_SHORT_INFO: true
+          SHOW_TITLE: "True" # optional
+          SHOW_TIMEZONE: "True"
+          SHOW_SHORT_INFO: "True"
           SECTION_NAME: waka # optional
           BLOCKS: -> # optional
-          CODE_LANG: rust # optional
+          CODE_LANG: Java # optional
           TIME_RANGE: all_time # optional
           LANG_COUNT: 10 # optional
-          SHOW_TIME: true # optional
-          SHOW_TOTAL: true # optional
-          SHOW_MASKED_TIME: false # optional
-          STOP_AT_OTHER: true # optional
+          SHOW_TIME: "True" # optional
+          SHOW_TOTAL: "True" # optional
+          SHOW_MASKED_TIME: "False" # optional
+          STOP_AT_OTHER: "False" # optional
           IGNORED_LANGUAGES: YAML JSON TOML # optional
           ### commit
           COMMIT_MESSAGE: Updated waka-readme graph with new metrics # optional
