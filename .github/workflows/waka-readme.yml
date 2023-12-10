@@ -21,8 +21,6 @@ jobs:
           REPOSITORY: MarkStreek/MarkStreek # optional
           ### content
           SHOW_TITLE: "True" # optional
-          SHOW_TIMEZONE: "True"
-          SHOW_SHORT_INFO: "True"
           SECTION_NAME: waka # optional
           BLOCKS: -> # optional
           CODE_LANG: Java # optional
