@@ -67,7 +67,7 @@ public abstract class About extends Me {
 
 <!--START_SECTION:waka-->
 
-```rust
+```Java
 From: 08 December 2023 - To: 09 December 2023
 
 Total Time: 54 mins
