@@ -43,7 +43,7 @@ public abstract class About extends Me {
     public String SURNAME = "Van de Streek";
     public String AGE = "20";
     
-    public List<String> getLanguage() {
+    public List<String> getLanguages() {
         return Collections.unmodifiableList(List.of("Dutch", "English", "German"));
     }
 
@@ -53,15 +53,6 @@ public abstract class About extends Me {
     }
 }
 ```
-
-## Currently working on
-
-### Server Dashboard for the Bioinformatics department of the University of Applied Sciences Groningen
-
-![](https://img.shields.io/badge/status-developing...-green.svg)
-![](https://img.shields.io/badge/language-Java-yellow.svg)
-
-[Bioinf-Status-Page](https://Github.com/MarkStreek/Bioinf-Status-Page) To see the project!
 
 ## 📊 Stats
 
@@ -81,7 +72,16 @@ GitIgnore file   0 secs          -------------------------   00.08 %
 
 <!--END_SECTION:waka-->
 
+## 💻 Currently working on
+
+### Server Dashboard for the Bioinformatics department of the University of Applied Sciences Groningen
+
+![](https://img.shields.io/badge/status-developing...-green.svg)
+![](https://img.shields.io/badge/language-Java-yellow.svg)
+
+[Bioinf-Status-Page](https://Github.com/MarkStreek/Bioinf-Status-Page) To see the project!
+
 ## 📫 Contact me
 
-- [LinkedIn](https://www.linkedin.com/in/mark-van-de-streek-1b1b3b1b3/)
+- [LinkedIn](www.linkedin.com/in/mark-van-de-streek-0a2b29232)
 - [Email](mailto:m.van.de.streek@st.hanze.nl)
