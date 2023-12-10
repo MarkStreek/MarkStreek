@@ -65,12 +65,16 @@ public abstract class Me extends Mark {
 
 <!--START_SECTION:waka-->
 
-```txt
-Markdown         47 mins         █████████████████████▓░░░   86.98 %
-JavaScript       3 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.80 %
-Java             2 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.13 %
-HTML             0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.01 %
-GitIgnore file   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 %
+```rust
+From: 08 December 2023 - To: 09 December 2023
+
+Total Time: 54 mins
+
+Markdown         47 mins         >>>>>>>>>>>>>>>>>>>>>>---   86.98 %
+JavaScript       3 mins          >>-----------------------   06.80 %
+Java             2 mins          >------------------------   05.13 %
+HTML             0 secs          -------------------------   01.01 %
+GitIgnore file   0 secs          -------------------------   00.08 %
 ```
 
 <!--END_SECTION:waka-->
