@@ -24,7 +24,7 @@ jobs:
           SECTION_NAME: waka # optional
           BLOCKS: -> # optional
           CODE_LANG: Java # optional
-          TIME_RANGE: all_time # optional
+          TIME_RANGE: last_7_days # optional
           LANG_COUNT: 10 # optional
           SHOW_TIME: "True" # optional
           SHOW_TOTAL: "True" # optional
