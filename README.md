@@ -60,7 +60,7 @@ public abstract class About extends Me {
 <!--START_SECTION:waka-->
 
 ```Java
-From: 23 February 2024 - To: 01 March 2024
+From: 24 February 2024 - To: 02 March 2024
 
 Total Time: 16 hrs 54 mins
 
