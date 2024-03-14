@@ -77,12 +77,16 @@ SQL               0 secs          -------------------------   00.07 %
 
 ## 💻 Currently working on
 
-### Server Dashboard for the Bioinformatics department of the University of Applied Sciences Groningen
+### Hardware Catalog for Quintor B.V. Groningen
 
-![](https://img.shields.io/badge/status-developing...-green.svg)
-![](https://img.shields.io/badge/language-Java-yellow.svg)
+I'm currently developping an application for Quintor Groningen to manage their hardware catalog. The backend is written in Java (Spring Boot) and the frontend is written using REACT.
 
-[Bioinf-Status-Page](https://Github.com/MarkStreek/Bioinf-Status-Page) To see the project!
+![Static Badge](https://img.shields.io/badge/Status-Developing...-green?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/BackEnd-Java-orange?style=for-the-badge&logo=SpringBoot)
+![Static Badge](https://img.shields.io/badge/FrontEnd-Javascript-purple?style=for-the-badge&logo=REACT)
+
+
+[QuintorCatalogBackEnd](https://Github.com/MarkStreek/QuintorCatalogBackEnd) To see the project!
 
 ## 📫 Contact me
 
