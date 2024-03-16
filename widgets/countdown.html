@@ -1,131 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900">
-    <title>Document</title>
-    <style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900">
+        <title>Document</title>
+        <style>
 
 body{
-    background-color: white;
+        background-color: white;
 }
-  
+    
 #timer {
-  color: #eeeeee;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
-  font-size: .7em;
-  letter-spacing: 5px;
+    color: #eeeeee;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: .7em;
+    letter-spacing: 5px;
 }
 
 .days, .hours, .minutes, .seconds {
-  display: inline-block;
-  padding: 20px;
-  width: 100px;
-  border-radius: 5px;
+    display: inline-block;
+    padding: 20px;
+    width: 60px; /* Decreased width by 40% */
+    border-radius: 5px;
 }
 
 .days {
-  background: #EF2F3C;
+    background: #EF2F3C;
 }
 
 .hours {
-  background: #eeeeee;
-  color: #183059;
+    background: #eeeeee;
+    color: #183059;
 }
 
 .minutes {
-  background: #276FBF;
+    background: #276FBF;
 }
 
 .seconds {
-  background: #F0A202;
+    background: #F0A202;
 }
 
 .numbers {
-  font-family: 'Montserrat', sans-serif;
-  color:  #183059;
-  font-size: 4em;
-  text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:  #183059;
+    font-size: 2em;
+    text-align: center;
 }
 
 .white {
-  position: absolute;
-  background:  #eeeeee;
-  height: 85px;
-  width: 75px;
-  left: 30%;
-  top: 2%;
+    position: absolute;
+    background:  #eeeeee;
+    height: 51px; /* Decreased height by 40% */
+    width: 45px; /* Decreased width by 40% */
+    left: 30%;
+    top: 2%;
 }
 
 .red {
-  position: absolute;
-  background:  #EF2F3C;
-  left: 18%;
-  top: 9%;
-  height: 65px;
-  width: 70px;
+    position: absolute;
+    background:  #EF2F3C;
+    left: 18%;
+    top: 9%;
+    height: 39px; /* Decreased height by 40% */
+    width: 42px; /* Decreased width by 40% */
  
 }
 
 .blue {
-  position: absolute;
-  background:  #276FBF;
-  height: 80px;
-  width: 80px;
-  left: 60%;
-  top: 5%;
+    position: absolute;
+    background:  #276FBF;
+    height: 48px; /* Decreased height by 40% */
+    width: 48px; /* Decreased width by 40% */
+    left: 60%;
+    top: 5%;
 
 
 }
 
 
-    </style>
+        </style>
 </head>
 <body>
-    
+        
 <div id="timer">
 
-    <div class="days"> 
-        <div id="days" class="numbers "> </div>days</div> 
-      <div class="hours"> 
-        <div  id="hours" class="numbers"> </div>hours</div> 
-      <div class="minutes"> 
-        <div  id="minutes" class="numbers"> </div>minutes</div> 
-      <div   class="seconds"> 
-        <div id="seconds" class="numbers"> </div>seconds</div> 
-      </div>
+        <div class="days"> 
+                <div id="days" class="numbers "> </div>days</div> 
+            <div class="hours"> 
+                <div  id="hours" class="numbers"> </div>hours</div> 
+            <div class="minutes"> 
+                <div  id="minutes" class="numbers"> </div>minutes</div> 
+            <div   class="seconds"> 
+                <div id="seconds" class="numbers"> </div>seconds</div> 
+            </div>
 
 </div>
 
 </body>
 <script>
-    const year = new Date().getFullYear();
+        const year = new Date().getFullYear();
 const myDate = new Date('Sep 1, 2024 00:00:00');
 console.log(myDate);
 
 // countdown
 let timer = setInterval(function() {
 
-  // get today's date
-  const today = new Date().getTime();
+    // get today's date
+    const today = new Date().getTime();
 
-  // get the difference
-  const diff = myDate - today;
+    // get the difference
+    const diff = myDate - today;
 
-  // math
-  let days = Math.floor(diff / (1000 * 60 * 60 * 24));
-  let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-  let seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    // math
+    let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-  // display
-  document.getElementById("days").innerHTML=days
-  document.getElementById("hours").innerHTML=hours
-  document.getElementById("minutes").innerHTML=minutes
-  document.getElementById("seconds").innerHTML=seconds
+    // display
+    document.getElementById("days").innerHTML=days
+    document.getElementById("hours").innerHTML=hours
+    document.getElementById("minutes").innerHTML=minutes
+    document.getElementById("seconds").innerHTML=seconds
 
 
 
