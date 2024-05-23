@@ -35,7 +35,6 @@ My name is **Mark** van de Streek and I am a student bioinformatics at the [Univ
 ```java
 // AboutMe.java
 
-import java.util.Collection;
 import java.util.Collections;
 
 public abstract class About extends Me {
