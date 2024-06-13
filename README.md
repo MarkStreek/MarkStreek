@@ -59,16 +59,18 @@ public abstract class About extends Me {
 <!--START_SECTION:waka-->
 
 ```Java
-From: 04 June 2024 - To: 11 June 2024
+From: 05 June 2024 - To: 12 June 2024
 
-Total Time: 4 hrs 41 mins
+Total Time: 4 hrs 47 mins
 
-Markdown    2 hrs 41 mins   >>>>>>>>>>>>>>-----------   57.43 %
-Java        59 mins         >>>>>--------------------   21.01 %
-RMarkdown   56 mins         >>>>>--------------------   19.87 %
-Gradle      3 mins          -------------------------   01.26 %
-Groovy      1 min           -------------------------   00.38 %
-Other       0 secs          -------------------------   00.05 %
+Markdown          2 hrs 24 mins   >>>>>>>>>>>>>------------   50.12 %
+Java              1 hr 16 mins    >>>>>>>------------------   26.63 %
+RMarkdown         56 mins         >>>>>--------------------   19.46 %
+Java Properties   4 mins          -------------------------   01.67 %
+Gradle            4 mins          -------------------------   01.42 %
+Groovy            1 min           -------------------------   00.49 %
+Properties        0 secs          -------------------------   00.17 %
+Other             0 secs          -------------------------   00.05 %
 ```
 
 <!--END_SECTION:waka-->
