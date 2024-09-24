@@ -22,8 +22,6 @@ My name is **Mark** van de Streek and I am a student bioinformatics at the [Univ
 - **Genomics**
 - **Genetics**
 - **Transcriptomics**
-- **Proteomics**
-- **Metagenomics**
 - **Phylogenetics**
 - **Systems Biology**
 - **Immunology**
@@ -77,18 +75,12 @@ Other             0 secs          -------------------------   00.01 %
 
 <!--END_SECTION:waka-->
 
-## 💻 Currently working on
+## Currently working on
 
-### Hardware Catalog for Quintor B.V. Groningen
+I'm currently developing a genetic variation finder tool for the Dutch National Institute for Public Health and the Environment (RIVM) 
 
-I'm currently developping an application for Quintor Groningen to manage their hardware catalog. The backend is written in Java (Spring Boot) and the frontend is written using REACT.
-
-![Static Badge](https://img.shields.io/badge/Status-Developing...-green?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/BackEnd-Java-orange?style=for-the-badge&logo=SpringBoot)
-![Static Badge](https://img.shields.io/badge/FrontEnd-Javascript-purple?style=for-the-badge&logo=REACT)
-
-
-[QuintorCatalogBackEnd](https://Github.com/MarkStreek/QuintorCatalogBackEnd) To see the project!
+- [RIVM](https://www.rivm.nl/en)
+- [Github - Centre Infectious Disease Research, Diagnostics and Laboratory Surveillance-Bioinformatics (RIVM, The Netherlands)](https://github.com/RIVM-bioinformatics)
 
 ## 📫 Contact me
 
