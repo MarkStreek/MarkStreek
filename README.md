@@ -57,18 +57,18 @@ public abstract class About extends Me {
 <!--START_SECTION:waka-->
 
 ```Java
-From: 01 May 2025 - To: 08 May 2025
+From: 02 May 2025 - To: 09 May 2025
 
-Total Time: 10 hrs 17 mins
+Total Time: 7 hrs 53 mins
 
-Python       9 hrs 38 mins   >>>>>>>>>>>>>>>>>>>>>>---   89.02 %
-Other        32 mins         >------------------------   04.99 %
-Text         8 mins          -------------------------   01.26 %
-TSV          6 mins          -------------------------   00.96 %
-Snakemake    4 mins          -------------------------   00.72 %
-Git          2 mins          -------------------------   00.42 %
-RMarkdown    2 mins          -------------------------   00.31 %
-Git Config   1 min           -------------------------   00.23 %
+Python       7 hrs 15 mins   >>>>>>>>>>>>>>>>>>>>>>---   86.15 %
+Other        31 mins         >>-----------------------   06.31 %
+Text         8 mins          -------------------------   01.62 %
+TSV          6 mins          -------------------------   01.24 %
+Snakemake    4 mins          -------------------------   00.92 %
+Git          2 mins          -------------------------   00.54 %
+RMarkdown    2 mins          -------------------------   00.40 %
+Git Config   1 min           -------------------------   00.29 %
 ```
 
 <!--END_SECTION:waka-->
