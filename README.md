@@ -1,4 +1,4 @@
-My name is **Mark** van de Streek and I am a student bioinformatics at the [University of applied Sciences Groningen](https://www.hanze.nl/en) 🇳🇱.
+My name is **Mark** van de Streek and I am a bioinformatician currently working at the Dutch National Institute for Public Health and the Environment (RIVM). 
 
 ## 🔧 Technologies & Tools
 
@@ -39,7 +39,7 @@ public abstract class About extends Me {
 
     public String NAME = "Mark";
     public String SURNAME = "Van de Streek";
-    public String AGE = "20";
+    public String AGE = "22";
     
     public List<String> getLanguages() {
         return Collections.unmodifiableList(List.of("Dutch", "English", "German"));
@@ -68,7 +68,7 @@ No activity tracked
 
 ## Currently working on
 
-I'm currently developing a genetic variation finder tool for the Dutch National Institute for Public Health and the Environment (RIVM) 
+Still have to fill this in exactly, but in the meantime, you can check out the department's repositories:
 
 - [RIVM](https://www.rivm.nl/en)
 - [Github - Centre Infectious Disease Research, Diagnostics and Laboratory Surveillance-Bioinformatics (RIVM, The Netherlands)](https://github.com/RIVM-bioinformatics)
@@ -76,4 +76,4 @@ I'm currently developing a genetic variation finder tool for the Dutch National 
 ## 📫 Contact me
 
 - [LinkedIn](www.linkedin.com/in/mark-van-de-streek-0a2b29232)
-- [Email](mailto:m.van.de.streek@st.hanze.nl)
+- [Email](mailto:mvdstreek2003@gmail.com)
